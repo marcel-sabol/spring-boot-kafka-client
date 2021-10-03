@@ -9,7 +9,7 @@ spring:
       ssl:
         key-store-type: PKCS12
         key-store-password: ${DEMO_KEY_STORE_PASSWORD}
-        key-store-location: /tmp/ca.p12
+        key-store-location: /tmp/user/user.p12
         trust-store-type: PKCS12
         trust-store-password: ${DEMO_TRUST_STORE_PASSWORD}
-        trust-store-location: /tmp/user.p12
+        trust-store-location: /tmp/ca/ca.p12
