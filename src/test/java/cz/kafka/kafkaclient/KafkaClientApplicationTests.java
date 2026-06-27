@@ -1,4 +1,4 @@
-package cz.wesecon.kafkaclient;
+package cz.kafka.kafkaclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
